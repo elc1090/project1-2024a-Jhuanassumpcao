@@ -1,0 +1,28 @@
+.avalia-title {
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+}
+label {
+    font-weight: bold;
+}
+.display-6 {
+    font-size: calc(0.6rem + 1.3vw);
+}
+.error-field {
+    border: 1px solid red !important;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -0.1px 6px rgba(0, 0, 0, 0.1); /* Adicionando sombra no topo */
+    padding: 20px;
+    margin-top: 20px;
+}
+canvas {
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+#assinaturaCanvas {
+    max-width: 100%;
+    height: auto;
+}
