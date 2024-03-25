@@ -67,6 +67,10 @@
                     </div>
                     <!-- Outros campos de informações do aluno -->
                 </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-dark " id="gerarLink">Gerar link de compartilhamento</button>
+                </div>
+
             </div>
             <!-- Container de avaliação - Apresentação -->
             <div class="container mb-5">
@@ -179,12 +183,14 @@
                 <div class="canvas-container">
                     <canvas id="assinaturaCanvas"></canvas>
                 </div>
-                <button type="button" class="btn btn-danger" onclick="limparAssinatura()">Limpar</button>
-                <button type="button" class="btn btn-primary" id="gerarLink">Gerar link de compartilhamento</button>
-                <button type="button" class="btn btn-primary" id="generatePdfBtn">Gerar PDF</button>
+                <div>
+                    <button type="button" class="btn btn-danger" onclick="limparAssinatura()">Limpar assinatura</button>
+
+                </div>
             </div>
             
         </div>
+        <button type="button" class="btn btn-primary text-right generate-pdf-btn" id="generatePdfBtn">Gerar PDF</button>
     </main>
     <footer class="bg-dark text-white text-center py-1">
         <p>&copy; <span id="currentYear"></span> Avaliação de TCC - Ciência da Computação</p>
@@ -201,6 +207,7 @@
     <script src="../src/scripts/calculaNotas.js"></script>
     <script src="../src/scripts/geradorPdf.js"></script>
     <script src="../src/scripts/assinatura.js"></script>
+    <script src="../src/scripts/cache.js"></script>
 </body>
 
 </html>
