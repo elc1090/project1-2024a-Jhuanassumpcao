@@ -1,6 +1,5 @@
 document.getElementById("generatePdfBtn").addEventListener("click", function () {
 
-    console.log('generatePdfBtn clicked')
     // Create a new jsPDF instance
     const doc = new jspdf.jsPDF();
   
