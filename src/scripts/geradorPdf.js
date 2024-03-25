@@ -6,7 +6,7 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
     doc.setFont('arial');
     doc.setFontSize(12);
     
-    var img = 'img/cedula.jpg'
+    var img = 'public/img/cedula.jpg'
     var width = doc.internal.pageSize.getWidth();
     var height = doc.internal.pageSize.getHeight();
     doc.addImage(img, "JPG", 0, 0, width, height);
