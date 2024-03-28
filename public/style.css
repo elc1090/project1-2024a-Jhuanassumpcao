@@ -39,3 +39,14 @@ canvas {
     right: 20px; /* Distância do botão em relação à margem direita da página */
     z-index: 1000; /* Z-index alto para garantir que o botão fique acima do conteúdo */
 }
+.rotate {
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

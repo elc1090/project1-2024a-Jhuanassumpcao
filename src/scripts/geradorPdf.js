@@ -1,5 +1,11 @@
 document.getElementById("generatePdfBtn").addEventListener("click", function () {
 
+
+    $('#generatePdfBtn').prop('disabled', true);
+    $("#generatePdfBtn").addClass("disabled loading"); 
+    $("#iconPdf").removeClass("fa-file-pdf");
+    $("#iconPdf").addClass("rotate fa-circle-notch");
+
     // Create a new jsPDF instance
     const doc = new jspdf.jsPDF();
   
@@ -130,6 +136,11 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
 
         $(".form-group").has('input[name="alterar"]').addClass("error-field"); // Adiciona a classe de erro ao form-group
     }
+    $("#iconPdf").removeClass("rotate fa-circle-notch");
+    $("#iconPdf").addClass("fa-file-pdf");
+    $('#generatePdfBtn').prop('disabled', false);
+    $("#generatePdfBtn").removeClass("disabled loading");
+
     if (hasErrors) {
         alert(mensagem);
         
@@ -137,9 +148,8 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
         if (firstErrorElement) {
             firstErrorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-
+        
         return false;
     }
-
     return true;
 }
