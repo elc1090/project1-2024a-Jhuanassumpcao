@@ -1,13 +1,13 @@
 # Projeto: Remake de site/app web
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
+![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/c7f849be-2f15-4610-ae53-8b879e389fe7)
 
 
 Acesso: https://elc1090.github.io/project1-2024a-Jhuanassumpcao/index.html
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: Jhuan Luis Almeida Assumpção - Ciência da Computação
+Jhuan Luis Almeida Assumpção - Ciência da Computação
 
 
 #### Site/app escolhido
