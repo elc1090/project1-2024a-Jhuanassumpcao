@@ -1,11 +1,17 @@
 .avalia-title {
     font-size: clamp(1.8rem, 2.5vw, 2.8rem);
 }
+.navbar-brand {
+    margin-right: 0px !important;
+    white-space: normal; /* Adiciona quebra de texto */
+}
+
 label {
     font-weight: bold;
 }
 .display-6 {
     font-size: calc(0.6rem + 1.3vw);
+    line-height: 1.2
 }
 .error-field {
     border: 1px solid red !important;
