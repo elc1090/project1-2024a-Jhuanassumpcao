@@ -3,7 +3,7 @@
 }
 .navbar-brand {
     margin-right: 0px !important;
-    white-space: normal; /* Adiciona quebra de texto */
+    white-space: normal;
 }
 
 label {
@@ -56,3 +56,11 @@ canvas {
       transform: rotate(360deg);
     }
   }
+
+/* Estilos para telas pequenas (como smartphones) */
+@media (max-width: 465px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+        white-space: normal; /* Adiciona quebra de texto */
+    }
+}
