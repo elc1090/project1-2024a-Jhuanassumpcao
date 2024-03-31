@@ -1,6 +1,6 @@
 # Projeto: Remake de site/app web
 
-![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/c7f849be-2f15-4610-ae53-8b879e389fe7)
+![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/2d2491b0-10c0-407a-af67-d6dddb95ef81)
 
 
 Acesso: https://elc1090.github.io/project1-2024a-Jhuanassumpcao/index.html
