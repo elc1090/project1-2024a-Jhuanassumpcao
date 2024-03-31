@@ -15,7 +15,18 @@ function verificarValor(input, limite) {
     
   }
   
-  
+  $(".nota-input").on('input', function() {
+    var valor = parseFloat($(this).val());
+    var resultado = parseFloat($("#resultado").val() || 0);
+    
+    if (isNaN(valor)) {
+        $(this).val('');
+    } else {
+        $(this).val('');
+        resultado += valor / 100;
+        $("#resultado").val(resultado.toFixed(2));
+    }
+});
   
   
   function calcularSubTotal3() {
