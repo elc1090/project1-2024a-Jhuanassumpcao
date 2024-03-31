@@ -106,26 +106,43 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
         { field: "conhecimento", message: "- Grau de Conhecimento Demonstrado no Trabalho Escrito" },
         { field: "adequacao", message: "- Adequação da Bibliografia Apresentada" },
         { field: "dataFim", message: "- Data Final para entregar a cópia definitiva do Trabalho de Graduação" },
-        { field: "alterar", message: "- O aluno deverá realizar alterações no Relatório Escrito?" }
+        { field: "alterar", message: "- O aluno deverá realizar alterações no Relatório Escrito?" },
+        { field: "assinaturaCanvas", message: "- Assinatura do Avaliador(a)" }
     ];
 
     let hasErrors = false;
     let mensagem = "Por favor, preencha todos os campos\n";
 
     $(".form-control").removeClass("error-field");
+    $("#assinaturaCanvas").removeClass("error-field");
     $(".form-group").has('input[name="alterar"]').removeClass("error-field"); // Adiciona a classe de erro ao form-group
 
     let firstErrorElement = null;
 
     requiredFields.forEach(({ field, message }) => {
         const element = document.getElementById(field);
-        if (element && element.value.trim() === "") {
-            $("#" + field).addClass("error-field");
-            hasErrors = true;
+        if (element) {
+            if (field === "assinaturaCanvas") {
+                // Verifica se a assinatura foi feita
+                const canvas = document.getElementById("assinaturaCanvas");
+                const context = canvas.getContext("2d");
+                const imageData = context.getImageData(0, 0, canvas.width, canvas.height).data;
+                const isEmpty = imageData.every(value => value === 0);
+                if (isEmpty) {
+                    $("#" + field).addClass("error-field");
+                    hasErrors = true;
 
-            // Se for o primeiro erro encontrado, armazena o elemento
-            if (!firstErrorElement) {
-                firstErrorElement = element;
+                    if (!firstErrorElement) {
+                        firstErrorElement = element;
+                    }
+                }
+            } else if (element.value.trim() === "") {
+                $("#" + field).addClass("error-field");
+                hasErrors = true;
+
+                if (!firstErrorElement) {
+                    firstErrorElement = element;
+                }
             }
         }
     });
