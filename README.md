@@ -43,11 +43,12 @@ No processo de desenvolvimento do remake do site, o conteúdo foi coletado diret
 
 #### Referências e créditos
 
-- [...](https://api.jquery.com/)
-- [...](https://www.w3schools.com/icons/fontawesome_icons_spinner.asp)
+- Documentação jquery [...](https://api.jquery.com/)
+- Documentação fontawwesome [...](https://www.w3schools.com/icons/fontawesome_icons_spinner.asp)
 - https://getbootstrap.com/docs/4.0/utilities/position/
 - https://sistemahydra.com.br/
 - https://docs.github.com/pt/pages/quickstart
+- https://www.w3schools.com/
   
 
 
