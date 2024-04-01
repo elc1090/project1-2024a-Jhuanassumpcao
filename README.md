@@ -16,31 +16,39 @@ Jhuan Luis Almeida Assumpção - Ciência da Computação
 https://andreainfufsm.github.io/avaliatcc/finalcc/
 
 ##### Descrição
-Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
+O projeto envolveu a otimização de um site de formulário online, com foco na melhoria da semântica HTML, usabilidade e aparência. Foram feitas alterações no código para torná-lo mais acessível e SEO-friendly, além de ajustes visuais para melhorar a experiência do usuário.
 
 #### Desenvolvimento
 
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, qual foi seu foco no remake, etc.)
+No processo de desenvolvimento do remake do site, o conteúdo foi coletado diretamente do código fonte original. As principais melhorias incluíram a organização e otimização na coleta de dados dos alunos, a adição de verificações de erros durante o preenchimento do formulário, uma navbar e um footer para melhorar a navegação, e a capacidade de gerar um PDF em qualquer parte do site. O foco foi tornar o site mais intuitivo, eficiente e atraente visualmente, seguindo as melhores práticas de desenvolvimento web.
 
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+- HTML
+- CSS
+- bootstrap 4.3.1
+- fontawesome
+- jspdf
+- jquery
+  
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+- VScode
+- Live Server
+- Path Intellisense
+- Auto Close Tag
+- GitHub Copilot
 
 #### Referências e créditos
 
-Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
+- [...](https://api.jquery.com/)
+- [...](https://www.w3schools.com/icons/fontawesome_icons_spinner.asp)
+- https://getbootstrap.com/docs/4.0/utilities/position/
+- https://sistemahydra.com.br/
+- https://docs.github.com/pt/pages/quickstart
+  
 
 
 
