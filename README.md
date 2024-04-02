@@ -37,11 +37,18 @@ Pode observar que há um asterisco em cada caso do formulário, mostrando a sua 
 |  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/7fb969cf-2627-4fd0-adba-d1d1c24ac608) | ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/f7bad440-be68-404f-954d-e8fd72531d0f) |
 
 Com as mudanças citadas acima, podemos observar que houve uma limpeza de botões no final, deixando apenas para limpar a assinatura. E também foi adicionado um footer para deixar um pouco mais formal.
+Além de fixar o botão de gerar pdf em toda a parte do site, permitindo que caso o usuário esqueça alguma informação no começo, não precisa ir para o final para gerar 
 
 | Antes  | Depois |
 | ------------- | ------------- |
 |  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/ca9018a1-8853-42e7-bfd1-a553fef64efe) | ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/9b121208-2119-40a5-8b36-fa455d24b0fe) |
 
+Caso alguma informação esteja faltando na hora de gerar o PDF, todo o campo que esta faltando vai ser sinalizado com uma cor vermelha. E enquanto o PDF estiver sendo gerado, o botão ficará inativo e com uma animação de loading
+
+| Antes  | Depois |
+| ------------- | ------------- |
+|  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/ca9018a1-8853-42e7-bfd1-a553fef64efe) | ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/e877dd88-e461-448e-85a7-b2337d91fb63)
+ |
 
 #### Tecnologias
 
