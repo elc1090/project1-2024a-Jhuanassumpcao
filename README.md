@@ -47,8 +47,7 @@ Caso alguma informação esteja faltando na hora de gerar o PDF, todo o campo qu
 
 | Antes  | Depois |
 | ------------- | ------------- |
-|  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/ca9018a1-8853-42e7-bfd1-a553fef64efe) | ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/e877dd88-e461-448e-85a7-b2337d91fb63)
- |
+|  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/ca9018a1-8853-42e7-bfd1-a553fef64efe) | ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/e877dd88-e461-448e-85a7-b2337d91fb63) |
 
 #### Tecnologias
 
