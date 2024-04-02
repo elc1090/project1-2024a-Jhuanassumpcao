@@ -24,9 +24,7 @@ No processo de desenvolvimento do remake do site, o conteúdo foi coletado diret
 
 | Antes  | Depois |
 | ------------- | ------------- |
-|  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/dfe7b02f-04ab-498b-98cd-8021666330bb)
- |  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/4e488585-ff84-46c3-8de6-6c0c9b022eb3)
- |
+|  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/dfe7b02f-04ab-498b-98cd-8021666330bb) |  ![image](https://github.com/elc1090/project1-2024a-Jhuanassumpcao/assets/85958775/4e488585-ff84-46c3-8de6-6c0c9b022eb3) |
 
 
 #### Tecnologias
